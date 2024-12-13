@@ -1,0 +1,247 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: larger;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: rgb(85, 174, 174);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 260px;
+    background-color: #bbd3eb;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h4 {
+    font-size: 18px;
+    color: #888;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero-content h1 span {
+    color: teal;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7b54;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 260px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4f4TKJLKLWsppolHJKuyiL1_vnuUly954Gg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn:hover {
+    background-color: #ff5733;
+}
+
+/* Hero Image */
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Featured Products Section */
+.featured-products {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.featured-products h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.featured-products p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Product Container */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Product Card */
+.product-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.brand {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: #ffc107;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #ff7b54;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #ff5733;
+}
+
+/* Mobile view adjustments using media query */
+@media (max-width: 768px) {
+    /* Header: Stack items vertically on mobile */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Hero section padding adjustment for mobile */
+    .hero {
+        padding: 100px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    /* Featured products grid layout adjustment */
+    .product-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .product-card {
+        padding: 15px;
+    }
+}
+
+/* Laptop view (for screens larger than 768px) */
+@media (min-width: 769px) {
+    header {
+        flex-direction: row;
+    }
+
+    .hero {
+        padding: 260px;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}

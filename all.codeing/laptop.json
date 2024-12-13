@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Dell XPS 13",
+      "price": 1299.99,
+      "description": "Ultra-slim and lightweight laptop with stunning InfinityEdge display.",
+      "specifications": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.4-inch FHD+",
+        "os": "Windows 11"
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkTuyhEtWaj1UZknQXNFNhWCIUGsRZTOoCEw&s"
+    },
+    {
+      "id": 2,
+      "name": "MacBook Air M2",
+      "price": 1199.99,
+      "description": "Apple's sleek and powerful laptop powered by the M2 chip.",
+      "specifications": {
+        "processor": "Apple M2",
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "display": "13.3-inch Retina",
+        "os": "macOS Ventura"
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcTZsiK5l0UnE9ZEkz7PBhTjMsZAbbOVH4AA&s"
+    },
+    {
+      "id": 3,
+      "name": "HP Spectre x360",
+      "price": 1499.99,
+      "description": "A versatile 2-in-1 laptop with premium build quality.",
+      "specifications": {
+        "processor": "Intel Core i7-1255U",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "13.5-inch OLED",
+        "os": "Windows 11"
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmguWO24gMRG_czzj_7Xg2qBA0PSRotUg2MA&s"
+    },
+    {
+      "id": 4,
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "price": 1799.99,
+      "description": "Business-grade laptop with exceptional durability and performance.",
+      "specifications": {
+        "processor": "Intel Core i7-1260P",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "14-inch FHD",
+        "os": "Windows 11 Pro"
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkTuyhEtWaj1UZknQXNFNhWCIUGsRZTOoCEw&s"
+    },
+    {
+      "id": 5,
+      "name": "Asus ROG Zephyrus G14",
+      "price": 1599.99,
+      "description": "Gaming powerhouse in a compact design with a stunning display.",
+      "specifications": {
+        "processor": "AMD Ryzen 9 6900HS",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "display": "14-inch QHD 120Hz",
+        "os": "Windows 11"
+      },
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC3bOmIEtlyfKaf7XVqvMiB46Tz5kSsfQAiw&s"
+    }
+  ]
+  

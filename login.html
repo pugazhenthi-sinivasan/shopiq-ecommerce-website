@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up & Sign In</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Sign Up Form -->
+    <div id="signupForm">
+        <h2>Sign Up</h2>
+        <input type="text" id="signupUsername" placeholder="Username" required>
+        <input type="password" id="signupPassword" placeholder="Password" required>
+        <button onclick="signUp()">Sign Up</button>
+        <p>Already have an account? <span onclick="toggleForms()">Sign In</span></p>
+    </div>
+
+    <!-- Sign In Form -->
+    <div id="signinForm" class="hidden">
+        <h2>Sign In</h2>
+        <input type="text" id="signinUsername" placeholder="Username" required>
+        <input type="password" id="signinPassword" placeholder="Password" required>
+        <button onclick="signIn()">Sign In</button>
+        <p>Don't have an account? <span onclick="toggleForms()">Sign Up</span></p>
+    </div>
+
+    <!-- Message Box -->
+    <div id="message"></div>
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Signup</title>
+    <link rel="stylesheet" href="/BUY.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>thaks</h1>
+            <p>Explore Plus</p>
+        </header>
+
+        <main class="main-content">
+            <section class="login-section">
+                <h2>Login or Signup</h2>
+                <form class="login-form" id="loginForm">
+                    <label for="email">Enter Email/Mobile Number</label>
+                    <div class="input-container">
+                        <input type="text" id="email" placeholder="+91" required>
+                        <a href="#" class="change-link">Change?</a>
+                    </div>
+
+                    <label for="otp">Enter OTP</label>
+                    <div class="input-container">
+                        <input type="text" id="otp" required>
+                        <a href="#" class="resend-link">Resend?</a>
+                    </div>
+
+                    <button type="submit" class="login-btn">Login</button>
+                </form>
+                <div class="advantages">
+                    <h3>Advantages of our secure login</h3>
+                    <ul>
+                        <li>📦 Easily Track Orders, Hassle-Free Returns</li>
+                        <li>🔔 Get Relevant Alerts and Recommendations</li>
+                        <li>⭐ Wishlist, Reviews, Ratings, and more.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Safe and Secure Payments. Easy returns. 100% Authentic products.</p>
+            <div class="policies">
+                <a href="#">Returns Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy</a>
+            </div>
+            <p>© 2007-2024 Flipkart.com</p>
+        </footer>
+    </div>
+    <script src="script.js">
+        document.getElementById('loginForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Login functionality not implemented yet.');
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row; /* Horizontal layout for larger screens */
+    /* max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.product-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product-details {
+    margin-left: 20px;
+    flex: 1;
+}
+
+/* Responsive styles for smaller screens (phones and tablets) */
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px;
+    }
+
+    .product-image img {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .product-details {
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px;
+    }
+
+    button, .add-to-cart, .buy-now {
+        width: 100%; /* Full-width buttons for better usability */
+        margin: 10px 0;
+    }
+}
+
+
+/* .product-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product-details {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.rating {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 24px;
+    color: #ff5722;
+    margin: 10px 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #757575;
+    font-size: 18px;
+}
+
+.discount {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.offers h3 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+
+.offers ul {
+    list-style-type: none;
+    padding: 0;
+    color: #333;
+}
+
+.purchase-options label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.storage-options, .ram-options {
+    margin-top: 20px;
+}
+
+.storage-options h3, .ram-options h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button.selected {
+    background: #ff5722;
+    color: #fff;
+    border: none;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.add-to-cart, .buy-now {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.add-to-cart {
+    background: #ff9800;
+    color: #fff;
+}
+
+.buy-now {
+    background: #ff5722;
+    color: #fff;
+}  */

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #2874f0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .login-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .login-form {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .change-link, .resend-link {
+    color: #2874f0;
+    text-decoration: none;
+  }
+  
+  .login-btn {
+    display: block;
+    width: 100%;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .advantages {
+    margin-top: 20px;
+  }
+  
+  .advantages ul {
+    list-style: none;
+  }
+  
+  .footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .policies a {
+    color: #2874f0;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
